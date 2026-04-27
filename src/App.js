@@ -65,7 +65,7 @@ const EXPERIENCE = [
       "Expertise in validating software enhancement to maximize product functionality",
       "Identify bugs, replicate reported customer bugs, verify bug fixes and new functionalities",
       "Execution of test cases for sanity, feature-based & regression testing",
-      "Preparing Test plans & Test strategies for Functional & Regression testing",
+      "Preparing Test plans and Test strategies for Functional & Regression testing",
       "Implementing Sprint planning, Sprint Review, Sprint DM & Retrospective",
     ],
   },

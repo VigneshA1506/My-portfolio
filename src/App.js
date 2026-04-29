@@ -59,7 +59,7 @@ const EXPERIENCE = [
     highlights: [
       "Software testing & validating for development projects",
       "Performing HW in the Loop (HIL) Testing",
-      "Test script generation using Python and RobotFramework",
+      "Test script creation using Python and RobotFramework",
       "Executing Test Automation by integrating Python script in LabVIEW GUI",
       "Performing Tests using ECU Testing tool with correct project workspace from SVN",
       "Expertise in validating software enhancement to maximize product functionality",

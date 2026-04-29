@@ -4,23 +4,33 @@ env:
   parameter-store:
     DOCKER_REGISTRY_USERNAME: /vickyamav/first-repo/username
     DOCKER_REGISTRY_PASSWORD: /vickyamav/first-repo/password
-    DOCKER_REGISTRY_URL: /vickyamav/docker-registry/url 
-    
+ 
 phases:
   pre_build:
     commands:
       - echo Logging in to Docker Hub
-      - docker login -u $DOCKER_REGISTRY_USERNAME -p $DOCKER_REGISTRY_PASSWORD
-
+      - echo $DOCKER_REGISTRY_PASSWORD | docker login -u $DOCKER_REGISTRY_USERNAME --password-stdin
+ 
   build:
     commands:
+      - echo Installing dependencies
       - npm install
+      - echo Building React app
       - npm run build
       - echo Building Docker image
       - docker build -t my-react-app .
+      - docker tag my-react-app vickyamav/first-repo:latest
  
   post_build:
     commands:
-      - docker tag my-react-app vickyamav/first-repo:latest
-      - echo Pushing image
+      - echo Pushing Docker image
       - docker push vickyamav/first-repo:latest
+      - echo Preparing deployment package
+      - mkdir deploy-package
+      - cp appspec.yml deploy-package/
+      - cp -r scripts deploy-package/
+ 
+artifacts:
+  files:
+    - '**/*'
+  base-directory: deploy-package

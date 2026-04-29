@@ -21,6 +21,6 @@ phases:
  
   post_build:
     commands:
-      - docker tag my-react-app vickyamav/first-repo:latest2
+      - docker tag my-react-app vickyamav/first-repo:latest
       - echo Pushing image
-      - docker push vickyamav/first-repo:latest2
+      - docker push vickyamav/first-repo:latest

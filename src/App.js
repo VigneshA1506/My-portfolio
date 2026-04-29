@@ -54,7 +54,7 @@ const EXPERIENCE = [
   {
     company: "Gilbarco Veeder Root India (P) Ltd",
     location: "Coimbatore",
-    role: "Engineer – SQA Engineer II",
+    role: "Engineer – SW Engineer II",
     period: "Nov 2021 – Present",
     highlights: [
       "Software testing & validating for development projects",

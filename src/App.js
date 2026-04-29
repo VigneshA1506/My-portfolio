@@ -58,7 +58,7 @@ const EXPERIENCE = [
     period: "Nov 2021 – Present",
     highlights: [
       "Software testing & validating for development projects",
-      "Performing Hardware in the Loop (HIL) Testing",
+      "Performing HW in the Loop (HIL) Testing",
       "Test script generation using Python",
       "Executing Test Automation by integrating Python script in LabVIEW GUI",
       "Performing Tests using ECU Test tool with correct project workspace from SVN",

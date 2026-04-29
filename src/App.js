@@ -53,7 +53,7 @@ const NAV_LINKS = [
 const EXPERIENCE = [
   {
     company: "Gilbarco Veeder Root India (P) Ltd",
-    location: "Co",
+    location: "Coimbatore",
     role: "Engineer – Software Engineer II",
     period: "Nov 2021 – Present",
     highlights: [

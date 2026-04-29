@@ -1,5 +1,7 @@
 #!/bin/bash
-set -e
-
-# Stop the running container (if any)
-echo "Hi"
+ 
+echo "Stopping existing container..."
+docker stop my-react-container || true
+ 
+echo "Removing existing container..."
+docker rm my-react-container || true

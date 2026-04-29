@@ -10,4 +10,4 @@ echo "Removing old container..."
 docker rm my-react-container || true
  
 echo "Running new container..."
-docker run -d -p 80:80 --name my-react-container vickyamav/first-repo:latest
+docker run -d -p 80:80 --name my-react-container vickyamav/first-repo:latest2

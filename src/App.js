@@ -54,7 +54,7 @@ const EXPERIENCE = [
   {
     company: "Gilbarco Veeder Root India (P) Ltd",
     location: "Coimbatore",
-    role: "Eng – Software Engineer II",
+    role: "Engineer – Software Engineer II",
     period: "Nov 2021 – Present",
     highlights: [
       "Software testing & validating for development projects",

@@ -244,7 +244,7 @@ function App() {
             <h1 className="hero-title">
               Hi, I'm <span className="gradient-text">Vignesh A</span>
             </h1>
-            <p className="hero-role">SQA Engineer II &bull; Test Automation Expert</p>
+            <p className="hero-role">Software Engineer II &bull; Test Automation Expert</p>
             <p className="hero-desc">
               8+ years of experience in software quality assurance, test automation
               with Python &amp; Robot Framework, and Agile process implementation.
